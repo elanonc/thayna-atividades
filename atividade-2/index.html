@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: burlywood;
+        }
+
+        #coffee {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            width: 300px; /* adicionei uma largura pro card, assim ele n estica tudo de uma vez que nem tava antes*/
+            background-color: bisque;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+            object-fit: cover; /* adicionei essa prop pra imagem não ficar esticada como estava antes */
+        }
+
+        .card h2 {
+            font-size: medium;
+            color: rgb(70, 47, 13);
+        }
+
+        .card p {
+            color: rgb(131, 88, 25);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>COFFEE API</h1>
+    <div id="coffee"></div>
+
+    <script>
+        async function carregandoCafe() {
+            try {
+                const response = await fetch("https://api.sampleapis.com/coffee/hot"); //trocado para coffee/iced, mas anteriormente estava coffee/hot
+                const data = await response.json();
+                // console.log(data);
+                mostrandoCafe(data);
+            } catch (error) {
+                document.getElementById("coffee").innerHTML = "Erro ao encontrar os cafés";
+                console.log(error);
+            }
+        }
+        function mostrandoCafe(coffee) {
+            const container = document.getElementById("coffee");
+
+            coffee.forEach(coffe => {
+                const card = document.createElement("div");
+                card.classList = "card" // conectando com a classe
+
+                console.log("coffe:", coffe);
+                const imagem = coffe.image
+                // antes estava coffee, no plural, ent ele tava pegando o vetor coffee
+                // tem que tomar cuidado, quando a gente usa o forEach a gente usa um "apelido" pro valor do item do vetor
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+                card.innerHTML = `<img src = "${imagem}">
+                <h2>${coffe.title}</h2>
+                <p>${coffe.description}</p>`;
+
+                container.appendChild(card);
+
+            });
+        }
+
+        carregandoCafe()
+    </script>
+</body>
+
+</html>
