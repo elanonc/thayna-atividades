@@ -1,0 +1,27 @@
+.summary-container{
+  background-color: gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.summary-container hr{
+  color: white;
+}
+
+.summary-container h3 {
+  margin-bottom: 16px;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-line.total {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row-reverse;
+}
