@@ -1,0 +1,36 @@
+.lista-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pokemon-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: box-shadow 0.2s;
+}
+
+.pokemon-card img {
+  border-radius: 8px;
+  width: 100px;
+}
+
+.pokemon-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
