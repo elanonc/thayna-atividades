@@ -1,0 +1,209 @@
+{
+  "pokemons": {
+    "-OUXG2mbiDdoG-yzVm2I": {
+      "altura": 0.5,
+      "descricao": "Melhor inicial de grama. O GOAT. Meu fav",
+      "fraquezas": [
+        "Fogo",
+        " Gelo",
+        " Voador",
+        " Psiquico",
+        " Venenoso"
+      ],
+      "habilidades": [
+        "Bala de semente",
+        " ataque rápido"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+      "nome": "Treecko",
+      "numero": 1,
+      "peso": 30,
+      "regiao": "Hoenn",
+      "tipo": "Planta"
+    },
+    "-OUXGIfGR4Hj5uZ_kqU8": {
+      "altura": 1.5,
+      "descricao": "GOAT",
+      "fraquezas": [
+        "Fogo",
+        " Gelo",
+        " Voador",
+        " Psiquico",
+        " Venenoso"
+      ],
+      "habilidades": [
+        "Folha navalha",
+        " ataque rápido"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
+      "nome": "Grovyle",
+      "numero": 2,
+      "peso": 70,
+      "regiao": "Hoenn",
+      "tipo": "Planta"
+    },
+    "-OUXGYA8zNghlL7X4ju0": {
+      "altura": 2,
+      "descricao": "Melhor tipo planta da história, e o único que tem mega evolução foda. O cara vira Dragão e Planta. ",
+      "fraquezas": [
+        "Fogo",
+        " Gelo",
+        " Voador",
+        " Psiquico",
+        " Venenoso"
+      ],
+      "habilidades": [
+        "Planta mortal"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
+      "nome": "Sceptile",
+      "numero": 3,
+      "peso": 100,
+      "regiao": "Hoenn",
+      "tipo": "Planta"
+    },
+    "-OUXGi1y3pcNMzV3LnJH": {
+      "altura": 0.5,
+      "descricao": "Inicial de fogo de Hoenn",
+      "fraquezas": [
+        "Água",
+        " Pedra",
+        " Terrestre"
+      ],
+      "habilidades": [
+        "Brasa"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+      "nome": "Torchic",
+      "numero": 4,
+      "peso": 30,
+      "regiao": "Hoenn",
+      "tipo": "Fogo"
+    },
+    "-OUXGv86q9LICoZYI2_b": {
+      "altura": 1.5,
+      "descricao": "Evolução do Torchic",
+      "fraquezas": [
+        "Água",
+        " Voador"
+      ],
+      "habilidades": [
+        "Soco de fogo",
+        " chute labareda"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
+      "nome": "Combusken",
+      "numero": 5,
+      "peso": 80,
+      "regiao": "Hoenn",
+      "tipo": "Fogo, Lutador"
+    },
+    "-OUXHBhjxeTNCGhjBVM6": {
+      "altura": 2,
+      "descricao": "Ultima evolução do Torchic. Modinha por ser de fogo.",
+      "fraquezas": [
+        "Água",
+        " Terrestre",
+        " Voador"
+      ],
+      "habilidades": [
+        "Queimadura Explosiva",
+        " Soco de fogo",
+        " Chute labareda"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
+      "nome": "Blaziken",
+      "numero": 6,
+      "peso": 100,
+      "regiao": "Hoenn",
+      "tipo": "Fogo, Lutador"
+    },
+    "-OUXHRdiU3M2lWZalzVd": {
+      "altura": 0.5,
+      "descricao": "O inicial mais forte dessa geração",
+      "fraquezas": [
+        "Elétrico",
+        " Planta"
+      ],
+      "habilidades": [
+        "Bolhas"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
+      "nome": "Mudkip",
+      "numero": 7,
+      "peso": 40,
+      "regiao": "Hoenn",
+      "tipo": "Água"
+    },
+    "-OUXHzCqreG0cyRPiN6q": {
+      "altura": 1.2,
+      "descricao": "Apelão",
+      "fraquezas": [
+        "Planta"
+      ],
+      "habilidades": [
+        "Jato D'água",
+        " Terremoto"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
+      "nome": "Marshtomp",
+      "numero": 8,
+      "peso": 120,
+      "regiao": "Hoenn",
+      "tipo": "Água, Terrestre"
+    },
+    "-OUXIBrhVYcb1oODG8dx": {
+      "altura": 1.8,
+      "descricao": "Muito apelão",
+      "fraquezas": [
+        "Planta"
+      ],
+      "habilidades": [
+        "Hidro Canhão",
+        " Terremoto"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
+      "nome": "Swampert",
+      "numero": 9,
+      "peso": 150,
+      "regiao": "Hoenn",
+      "tipo": "Água, Terrestre"
+    },
+    "-OUXIRR0tiYveDi6WECb": {
+      "altura": 0.3,
+      "descricao": "Meu genérico de Pidgey favorito",
+      "fraquezas": [
+        "Elétrico",
+        " Pedra"
+      ],
+      "habilidades": [
+        "Bico broca",
+        " Voar"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
+      "nome": "Taillow",
+      "numero": 10,
+      "peso": 30,
+      "regiao": "Hoenn",
+      "tipo": "Voador"
+    },
+    "-OUXIcmUOUZBJEjdiu7s": {
+      "altura": 1,
+      "descricao": "Evolução do meu genérico de Pidgey favorito",
+      "fraquezas": [
+        "Elétrico",
+        " Pedra"
+      ],
+      "habilidades": [
+        "Voar",
+        " Passáro Bravo"
+      ],
+      "imagem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/277.png",
+      "nome": "Swellow",
+      "numero": 11,
+      "peso": 80,
+      "regiao": "Hoenn",
+      "tipo": "Voador"
+    }
+  }
+}
